@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+}
+
+.flag {
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+}
+
+#german .c1 {
+  background-color: black;
+  height: calc(100% / 3);
+  width: 100%;
+  transition: background-color 0.3s ease-in;
+}
+#german .c2 {
+  background-color: red;
+  height: calc(100% / 3);
+  width: 100%;
+  transition: background-color 0.3s ease-in;
+}
+#german .c3 {
+  background-color: yellow;
+  height: calc(100% / 3);
+  width: 100%;
+  transition: background-color 0.3s ease-in;
+}
+
+#german:hover .c1 {
+  background-color: red;
+}
+#german:hover .c2 {
+  background-color: white;
+}
+#german:hover .c3 {
+  background-color: green;
+}
+
+#french {
+  display: flex;
+}
+
+#french .c1 {
+  background-color: blue;
+  width: calc(100% / 3);
+  height: 100%;
+  transition: background-color 0.3s ease-in;
+}
+#french .c2 {
+  background-color: white;
+  width: calc(100% / 3);
+  height: 100%;
+  transition: background-color 0.3s ease-in;
+}
+#french .c3 {
+  background-color: red;
+  width: calc(100% / 3);
+  height: 100%;
+  transition: background-color 0.3s ease-in;
+}
+
+#french:hover .c1 {
+  background-color: green;
+}
+#french:hover .c2 {
+  background-color: white;
+}
+#french:hover .c3 {
+  background-color: orange;
+}
